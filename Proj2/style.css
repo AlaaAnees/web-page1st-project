@@ -1,0 +1,515 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+@font-face{
+    font-family: open_sans;
+    src: url(Open_Sans/OpenSans-Regular.ttf);
+}
+
+body{
+    height: auto;
+    font-family: open_sans;
+
+}
+header{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    color: #434343;
+}
+ header .fas{
+    font-size: 68px;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-right: 60px;
+}
+nav{
+text-align: center;
+position: sticky;
+top:0;
+left: 0;
+background-color: #fff;
+z-index: 2;
+}
+nav ul{
+border-bottom: solid 1px #434343 ;
+border-top: solid 1px #434343 ;
+
+}
+nav ul li{
+list-style: none;
+display: inline-block;
+padding: 15px;
+
+}
+nav ul li a{
+text-decoration: none;
+color: #434343;
+font-size: 15px;
+padding: 15px;
+font-weight: bold;
+
+}
+nav ul li a:hover{
+    background-color: #f1f1f1;
+    color: #0964BA;
+} 
+
+
+/**************************video*******************************/
+.banner{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    align-items: center;
+}
+
+.banner #MyVideo{
+  position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner .content
+{
+   /** position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 10%; **/
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.banner .content h1
+{
+  /**  margin: 0;
+    padding: 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: sans-serif;**/
+  font-size: 48px;
+    font-weight: lighter;
+    
+}
+
+.banner .content p
+{
+ font-size: 24px;
+   /** font-size: 1em;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 10%;**/
+    
+}
+
+/**************************Features*****************************/
+
+.Feature{
+    color: #5F5F5F ;
+    padding: 20px;
+
+
+ }
+ .sec .fas{
+    font-size: 86px;
+    font-weight: 900;
+    margin-right: 30px;
+    margin-top: 10px;
+
+}
+.sec{
+    display: flex;
+}
+
+.sec h3{
+    font-size: 26px;
+
+}
+.topic a{
+    text-decoration: none;
+    color: blue;
+}
+
+/**************************Activites***********************************/
+.act{
+background: linear-gradient(#000000b3,#000000b3),url(img-activities.jpg) center no-repeat;
+background-size: cover;
+background-attachment: fixed;
+height: 240px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+font-size:30px;
+margin: 20px 0 ;
+padding:0 15px;
+
+}
+
+/*********************************Pictures*************************************/
+
+.pic{
+    display: block;
+    border:solid 1px #969393;
+    align-items: center;
+    margin:0 0 38px;
+    padding:30px 20px;
+    text-align: left;
+    font-size: 17px;
+    display: grid;
+}
+
+.img-block{
+    padding:24px
+}
+
+.pic-content h3{
+    color: #2C98C8;
+
+}
+
+
+/*******************************Company**********************************/
+
+.our-company{
+ margin: 0 0 38px;
+}
+
+
+.our-company img{  
+ width: 280px;
+}
+
+.our-company h2{
+ font-size: 20px;
+ line-height: 24px;
+ font-family: open-sans;
+ padding:30px 20px;
+ color: #616161;
+ font-weight: 500;
+ margin: 0 0 28px;
+}
+
+.our-company p{
+ color: #616161;
+ font-weight: 17px;
+ line-height: 29px;
+ margin: 0 0 28px;
+}
+
+/************************************Buttons*********************************************/
+
+.btn{
+ width: 144px;
+ height: 46px;
+ border-color: #c7c7c7;
+ border-width: 1px;
+ padding: 10px 30px;
+ text-align: center;
+ background: #fff;
+ float: right;
+ outline: none;
+ font-size: 16px;
+ line-height: 24px;
+ font-family: open-sans;
+ font-weight: 400px;
+ color: #5e5e5e;
+}
+
+.btn:hover{
+ background: #ebebeb99;
+ cursor: pointer;
+}
+
+.bt{
+ display: flex;
+}
+
+.vis{
+ border: solid 1px #969393;
+ height: 400px;
+ padding: 0 45px 60px;
+ margin-top: 100px;
+ width: 250px;
+}
+
+.btn1{
+ text-align: center;
+ outline: none;
+ border: none;
+ background: #fff;
+ font-size: 20px;
+ padding: 30px 20px;
+ line-height: 20px;
+ font-family: open-sans;
+}
+
+
+
+/****************************Contact US*****************************/
+.c{
+    text-align: right;
+}
+.details{
+    width: 300px;
+    height: 54px;
+    border:1 px solid #969393;
+    margin: 10px 0;
+}
+.details1{
+    width: 300px;
+    height: 150px;
+    border:1 px solid #969393;
+    margin: 10px 0;
+}
+.btn2{
+    width: 150px;
+    height: 57px;
+    border-color: #c7c7c7;
+    text-align: right;
+    border-width: 1px;
+    padding:12px 40px;
+    background: #fff;
+    outline: none;
+    font-size: 20.8px;
+    line-height: 32px;
+    font-family: open_sans;
+    font-weight: 400;
+    color:#5e5e5e;
+}
+.img img{
+    width: 280px;
+    margin-top: 50px;
+}
+
+/******************************copy*******************************/
+.copy{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.copy p{
+    text-align: left;
+    padding:0 15px;
+}
+.icon{
+    margin: 0 auto;
+    background-color: #dfe3e763;
+    width: 65px;
+    height: 60px;
+    margin-top: 20px;
+}
+.icon .fas{
+    margin: 0 auto;
+    padding:30%;
+    font-size: 20px;
+}
+
+
+/**************responsive********************/
+@media only screen and (min-width: 992px) {
+ .fas{
+     margin-top:15px;
+     margin-right:30px;
+ }
+ nav ul li a{
+    font-size: 22px;
+    font-weight: normal;
+ }
+ .slider {
+   height: auto;
+}
+
+.Feature{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 180px;
+     margin: 100px 0;
+
+}
+.sec .fas{
+    font-size: 60px;
+    font-weight: 900;
+    margin-right: 30px;
+}
+.sec h3{
+    font-size: 29px;
+}
+.sec p{
+    font-size: 17px;
+}
+
+/*******************************boxes************************/
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+.pic{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pic-content h3{
+width: 312px;
+padding:0;
+}
+
+
+/*******************************************company******************************/
+.our-company{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    margin:70px 0;
+}
+.vis{
+    margin-top: 0;
+}
+.our-company img{
+    width:auto;
+}
+
+/**************************************contact *IMPORTANT**********************/
+.Contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 105px;
+}
+.details ,.details1{
+    width: 362px;
+}
+.img img{
+    width: auto;
+    
+}
+
+/*************************************copy****************************/
+.icon{
+    position: absolute;
+    right: 0;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
